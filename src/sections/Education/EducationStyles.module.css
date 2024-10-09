@@ -1,0 +1,48 @@
+/* Container for the entire education section */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  /* Title of the education section */
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  /* List of education items */
+  .educationList {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Individual education item */
+  .educationItem {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Education item heading */
+  .educationItem h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  /* Education item text */
+  .educationItem p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #000000;
+  }
+  
